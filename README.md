@@ -139,8 +139,6 @@ class TicTacToe
 		return true;
 	}
 }
-
-
 abstract class Player
 {
 	String name;
@@ -160,9 +158,6 @@ abstract class Player
 		return false;
 	}
 }
-
-
-
 class HumanPlayer extends Player
 {
 	public HumanPlayer(String name, char mark)
@@ -184,7 +179,6 @@ class HumanPlayer extends Player
 		TicTacToe.placeMark(row, col, mark);
 	}
 }
-
 class AiPlayer extends Player
 {
 	public AiPlayer(String name, char mark)
@@ -208,12 +202,6 @@ class AiPlayer extends Player
 		TicTacToe.placeMark(row, col, mark);
 	}
 }
-
-
-
-
-
-
 public class Launch {
 
 	public static void main(String[] args) {
