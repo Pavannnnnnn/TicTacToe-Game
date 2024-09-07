@@ -210,9 +210,9 @@ public class Launch {
 		TicTacToe t=new TicTacToe();
 		
 		HumanPlayer p1=new HumanPlayer("bob", 'X');
-		HumanPlayer p2=new HumanPlayer("pop", '0');
+		AiPlayer p2=new AiPlayer("Ai", '0');
 		
-		HumanPlayer cp;
+		Player cp;
 		
 		cp=p1;
 		while(true)
